@@ -1,0 +1,18 @@
+#cloth atacking
+
+for /L %i in (10,1,20) do psexec \\192.168.1.%i -i -d chrome.exe --kiosk "https://ibb.co"
+
+for all pc at onece
+
+for /L %i in (10,1,20) do psexec \\192.168.1.%i taskkill /f /im chrome.exe
+
+#attacking
+
+for /L %i in (1,1,254) do @ping -n 1 -w 100 192.168.1.%i | find "Reply"
+
+psexec \\ip of computer -i -d chrome.exe --kiosk "https://ibb.co/qMK3jk7f"
+
+protect my self
+
+netsh advfirewall firewall add rule name="BlockRemoteAdmin" dir=in action=block protocol=TCP localport=135,445,3389
+
